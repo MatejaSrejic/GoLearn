@@ -1,0 +1,129 @@
+/* Init fonts */
+@font-face {
+    font-family: Circular;
+    src: url(../assets/CircularStd.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Circular;
+    src: url(../assets/CircularStd-Bold.otf);
+    font-weight: 600;
+}
+
+body {
+    height: 100%;
+    background-image: url(../assets/background.png);
+    font-family: "Circular", sans-serif;
+    color: white;
+}
+
+.container {
+    margin: 10px 200px 10px 200px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.topMenu {
+    display: flex;
+}
+
+#logo {
+    margin: 20px 0 20px 20px;
+    width: 150px;
+}
+
+.topMenu a:not(#logoWrapper) {
+    display: inline-block;
+    font-size: 24px;
+    color: #c1c1c1;
+    text-decoration: none;
+    margin: 25px 5px;
+}
+
+#selected {
+    color: #fff!important;
+}
+
+.topMenu a:hover:not(#logoWrapper) {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.fullSpace {
+    width: 100%;
+}
+
+#lastMenuItem {
+    margin-right: 30px!important;
+    margin-left: 5px;
+    margin-top: -5px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.content div:not(.sidebar-item) {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+.mainContent {
+    width: calc(70% - 40px);
+}
+
+.sidebar {
+    width: calc(29% - 40px);
+}
+
+.mainContent img {
+    width: 100%;
+}
+
+.credit {
+    font-size: 12px;
+    color: #c1c1c1;
+    text-align: center;
+}
+
+.credit a {
+    text-decoration: underline;
+    color: #c1c1c1;
+}
+
+#endOfStory {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sidebar {
+    position: absolute;
+}
+
+.sidebar-item {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 0 0 3px 0;
+    width: 67%;
+    border: 0.5px solid #c1c1c1;
+    border-radius: 10px;
+}
+
+.sidebar-item p,h3 {
+    padding: 0 10px 0 10px;
+}
+
+.sidebar-item h3 {
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.sidebar-item img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+#share-icon {
+    cursor: pointer;
+    color: white;
+    width: 20px;
+    margin-left: 10px;
+}
