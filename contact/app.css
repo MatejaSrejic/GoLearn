@@ -1,0 +1,62 @@
+.input, textarea {
+  font-family: "Circular", sans-serif;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
+}
+
+.flex-same {
+  width: calc(45% - 10px);
+}
+
+#email {
+  margin-left: 10px;
+}
+
+.contactWrapper {
+  width: 90%;
+  padding: 0!important;
+}
+
+textarea {
+  width: calc(90% + 15px);
+  margin-top: 15px;
+}
+
+#captchaImg {
+  margin-top: 10px;
+  height: 40px;
+  width: auto;
+}
+
+#captchaInput {
+  transform: translateY(-15px);
+  width: 90px;
+}
+
+#submitBtn {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  color: #c1c1c1;
+  background-color: transparent;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
+  outline: none;
+}
+
+#submitBtn:hover {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+  background-color: #c1c1c1;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
+  outline: none;
+  transition: background-color 0.2s, color 0.2s;
+}
