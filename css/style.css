@@ -20,7 +20,7 @@ body {
 .container {
     margin: 10px 200px 10px 200px;
     background-color: black;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .topMenu {
